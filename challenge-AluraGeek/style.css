@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 96px;
+    background-color: #FFFFFF;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.misProductos {
+    display: block;
+    align-items: left;
+    width: 678px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.formulario {
+    display: block;
+    align-items: right;
+    width: 472px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #5D04D9;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+footer img {
+    max-width: 374px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-bottom: 10px; /* Espacio entre la imagen y el primer texto */
+}
+
+footer p {
+    margin: 5px 0;
+    text-align: center;
+}
